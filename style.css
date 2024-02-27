@@ -10,12 +10,12 @@ body {
 }
 
 #container {
-    background-color: #fff;
+    background-color: white;
     border-radius: 8px;
     box-shadow: 0px 10px 15px 10px rgba(0, 0, 0, 0.3);
     overflow: hidden;
-    width: 827px;
-    height: 600px;
+    width: 927px;
+    height: 800px;
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
@@ -32,6 +32,8 @@ body {
 
 .blankDiv {
     background-color: #fff;
+    background: linear-gradient(135deg, #500ea5, #393939);
+    border-radius: 8px;
     border: none;
     padding: 20px;
     border-radius: 8px;
@@ -41,6 +43,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.blankDiv h1 {
+    text-align: center;
+    font-size: 2px;
 }
 
 #addNoteDiv {
@@ -100,19 +107,19 @@ li {
     border-radius: 10px;
     box-shadow:  9px 9px 18px #b3b3b3,
              -9px -9px 18px #ffffff;
-             overflow-y: scroll;
+    overflow: hidden;  
+          
 }
 
 li span {
-    font-size: 12px;
+    font-size: 13px;
     flex-grow: 1;
-    word-wrap: break-word;
-   
+    word-wrap: break-word;  
 }
 
 #editBtn,
 #deleteBtn {
-    background-color: #c6aaff;
+    background-color: red;
     color: #fff;
     border: none;
     padding: 5px 10px;
@@ -128,11 +135,11 @@ li span {
 }
 
 #deleteBtn:hover {
-    background-color: #8c53ff;
+    background-color: red;
 }
 
 #editBtn:hover {
-    background-color: gray;
+    background-color: #8c53ff;
 }
 
 
